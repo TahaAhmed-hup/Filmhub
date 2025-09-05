@@ -1,11 +1,11 @@
 import 'package:dartz/dartz.dart';
-import 'package:netflix/data/movie/models/movie.dart';
 
 import '../../../commen/helpers/mapper/movie_mapper.dart';
 import '../../../commen/helpers/mapper/trailer_mapper.dart';
 import '../../../core/models/trailer.dart';
 import '../../../domain/movie/repositories/movie.dart';
 import '../../../service_locator.dart';
+import '../models/movie.dart';
 import '../sources/movie.dart';
 
 class MovieRepsitoryImpl extends MovieRepository {

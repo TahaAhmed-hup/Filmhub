@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/domain/tv/entities/tv.dart';
-import 'package:netflix/presentation/watch/widgets/tv_keywords.dart';
-import 'package:netflix/presentation/watch/widgets/video_overview.dart';
-import 'package:netflix/presentation/watch/widgets/video_title.dart';
-import 'package:netflix/presentation/watch/widgets/video_vote_average.dart';
 
 import '../../../commen/widgets/appbar/app_bar.dart';
+import '../../../domain/tv/entities/tv.dart';
 import '../widgets/recommendation_tvs.dart';
 import '../widgets/similar_tvs.dart';
+import '../widgets/tv_keywords.dart';
+import '../widgets/video_overview.dart';
 import '../widgets/video_player.dart';
+import '../widgets/video_title.dart';
+import '../widgets/video_vote_average.dart';
 
 class TVWatchPage extends StatelessWidget {
   final TVEntity tvEntity;

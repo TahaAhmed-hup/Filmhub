@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/core/configs/theme/app_colors.dart';
+
+import '../../../core/configs/theme/app_colors.dart';
 
 class SelectableOption extends StatelessWidget {
   final String title;

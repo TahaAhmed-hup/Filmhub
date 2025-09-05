@@ -1,6 +1,6 @@
+import 'package:film_hub/commen/helpers/navigation/app_navigation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:netflix/commen/helpers/navigation/app_navigation.dart';
 
 import '../../../commen/widgets/appbar/app_bar.dart';
 import '../../../core/configs/assets/app_vectors.dart';
@@ -30,19 +30,19 @@ class HomePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // 🔥 Trending movies (Carousel)
-            CategoryText(title: 'Trending'),
+            // 🔥 Trending movies
+            CategoryText(title: 'Trending 🔥'),
             TrendingsMovies(),
             SizedBox(height: 16),
 
             // 🎬 Now Playing movies (Horizontal list)
-            CategoryText(title: 'Now Playing'),
+            CategoryText(title: 'Now Playing 🎬'),
             SizedBox(height: 16),
             NowPlayingMovies(),
             SizedBox(height: 16),
 
             // 📺 Popular TV shows (Horizontal list)
-            CategoryText(title: 'Popular TV'),
+            CategoryText(title: 'Popular TV 📺'),
             SizedBox(height: 16),
             PopularTv(),
             SizedBox(height: 16),

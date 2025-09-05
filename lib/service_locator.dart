@@ -1,9 +1,6 @@
 import 'package:get_it/get_it.dart';
-import 'package:netflix/core/network/dio_client.dart';
-import 'package:netflix/domain/movie/usecases/search_movie.dart';
-import 'package:netflix/domain/tv/usecases/get_keywords.dart';
-import 'package:netflix/domain/tv/usecases/search_tv.dart';
 
+import 'core/network/dio_client.dart';
 import 'data/auth/repository/auth.dart';
 import 'data/auth/sources/auth_api_service.dart';
 import 'data/movie/repositories/movie.dart';
@@ -20,11 +17,14 @@ import 'domain/movie/usecases/get_now_playing_movies.dart';
 import 'domain/movie/usecases/get_recommendation_movies.dart';
 import 'domain/movie/usecases/get_similar_movies.dart';
 import 'domain/movie/usecases/get_trending_movies.dart';
+import 'domain/movie/usecases/search_movie.dart';
 import 'domain/tv/repositories/tv.dart';
+import 'domain/tv/usecases/get_keywords.dart';
 import 'domain/tv/usecases/get_popular_tv.dart';
 import 'domain/tv/usecases/get_recommendation_tvs.dart';
 import 'domain/tv/usecases/get_similar_tvs.dart';
 import 'domain/tv/usecases/get_tv_trailer.dart';
+import 'domain/tv/usecases/search_tv.dart';
 
 final sl = GetIt.instance;
 

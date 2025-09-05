@@ -1,9 +1,9 @@
+import 'package:film_hub/commen/bloc/generic_data_cubit.dart';
+import 'package:film_hub/commen/bloc/generic_data_state.dart';
+import 'package:film_hub/domain/movie/entities/movie.dart';
+import 'package:film_hub/domain/movie/usecases/get_now_playing_movies.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/commen/bloc/generic_data_cubit.dart';
-import 'package:netflix/commen/bloc/generic_data_state.dart';
-import 'package:netflix/domain/movie/entities/movie.dart';
-import 'package:netflix/domain/movie/usecases/get_now_playing_movies.dart';
 
 import '../../../commen/widgets/movie/movie_card.dart';
 import '../../../service_locator.dart';

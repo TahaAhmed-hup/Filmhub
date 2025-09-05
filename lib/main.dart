@@ -1,10 +1,9 @@
+import 'package:film_hub/core/configs/theme/app_theme.dart';
+import 'package:film_hub/presentation/splash/bloc/splash_cubit.dart';
+import 'package:film_hub/presentation/splash/pages/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
-import 'package:netflix/core/configs/theme/app_theme.dart';
-import 'package:netflix/presentation/splash/bloc/splash_cubit.dart';
-import 'package:netflix/presentation/splash/pages/splash.dart';
 
 import 'service_locator.dart';
 

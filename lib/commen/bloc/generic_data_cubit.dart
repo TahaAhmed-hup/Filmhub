@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/core/usecase/usecase.dart';
 
+import '../../core/usecase/usecase.dart';
 import 'generic_data_state.dart';
 
 class GenericDataCubit extends Cubit<GenericDataState> {

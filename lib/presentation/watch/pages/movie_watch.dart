@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/presentation/watch/widgets/recommendation_movies.dart';
-import 'package:netflix/presentation/watch/widgets/video_overview.dart';
-import 'package:netflix/presentation/watch/widgets/video_release_date.dart';
-import 'package:netflix/presentation/watch/widgets/video_title.dart';
-import 'package:netflix/presentation/watch/widgets/video_vote_average.dart';
 
 import '../../../commen/widgets/appbar/app_bar.dart';
 import '../../../domain/movie/entities/movie.dart';
+import '../widgets/recommendation_movies.dart';
 import '../widgets/similar_movies.dart';
+import '../widgets/video_overview.dart';
 import '../widgets/video_player.dart';
+import '../widgets/video_release_date.dart';
+import '../widgets/video_title.dart';
+import '../widgets/video_vote_average.dart';
 
 class MovieWatchPage extends StatelessWidget {
   final MovieEntity movieEntity;

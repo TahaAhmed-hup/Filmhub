@@ -1,9 +1,9 @@
+import 'package:film_hub/commen/widgets/movie/movie_card.dart';
+import 'package:film_hub/commen/widgets/tv/tv_card.dart';
+import 'package:film_hub/presentation/search/bloc/search_cubit.dart';
+import 'package:film_hub/presentation/search/bloc/search_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/commen/widgets/movie/movie_card.dart';
-import 'package:netflix/commen/widgets/tv/tv_card.dart';
-import 'package:netflix/presentation/search/bloc/search_cubit.dart';
-import 'package:netflix/presentation/search/bloc/search_state.dart';
 
 class SearchContent extends StatelessWidget {
   const SearchContent({super.key});

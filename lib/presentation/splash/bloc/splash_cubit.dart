@@ -1,7 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/presentation/splash/bloc/splash_state.dart';
+
 import '../../../domain/auth/usecases/is_logged_in.dart';
 import '../../../service_locator.dart';
+import 'splash_state.dart';
 
 class SplashCubit extends Cubit<SplashState> {
   SplashCubit() : super(DisplaySplash());

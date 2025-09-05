@@ -1,11 +1,12 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/presentation/watch/bloc/trailer_state.dart';
+
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 import '../../../core/entity/trailer.dart';
 import '../../../domain/movie/usecases/get_movie_trailer.dart';
 import '../../../domain/tv/usecases/get_tv_trailer.dart';
 import '../../../service_locator.dart';
+import 'trailer_state.dart';
 
 class TrailerCubit extends Cubit<TrailerState> {
   TrailerCubit() : super(TrailerLoading());

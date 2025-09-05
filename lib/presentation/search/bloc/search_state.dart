@@ -1,5 +1,5 @@
-import 'package:netflix/domain/movie/entities/movie.dart';
-import 'package:netflix/domain/tv/entities/tv.dart';
+import '../../../domain/movie/entities/movie.dart';
+import '../../../domain/tv/entities/tv.dart';
 
 abstract class SearchState {}
 

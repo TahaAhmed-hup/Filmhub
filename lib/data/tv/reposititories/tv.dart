@@ -1,14 +1,14 @@
 import 'package:dartz/dartz.dart';
-import 'package:netflix/commen/helpers/mapper/keyword.dart';
-import 'package:netflix/core/models/keyword.dart';
-import 'package:netflix/data/tv/models/tv.dart';
 
+import '../../../commen/helpers/mapper/keyword.dart';
 import '../../../commen/helpers/mapper/tv_mapper.dart';
 import '../../../core/entity/trailer.dart';
+import '../../../core/models/keyword.dart';
 import '../../../core/models/trailer.dart';
 import '../../../domain/tv/repositories/tv.dart';
 
 import '../../../service_locator.dart';
+import '../models/tv.dart';
 import '../sources/tv.dart';
 
 class TVRepositoryImpl extends TvRepository {

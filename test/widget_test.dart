@@ -5,10 +5,9 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
+import 'package:film_hub/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:netflix/main.dart'; // Make sure this path points to where MyApp is defined
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

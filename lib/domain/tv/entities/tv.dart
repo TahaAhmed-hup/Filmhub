@@ -1,4 +1,4 @@
-import 'package:netflix/core/configs/assets/app_images.dart';
+import '../../../core/configs/assets/app_images.dart';
 
 class TVEntity {
   TVEntity({

@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:netflix/domain/tv/repositories/tv.dart';
 
 import '../../../core/usecase/usecase.dart';
 import '../../../service_locator.dart';
+import '../repositories/tv.dart';
 
 class GetTvTrailerUseCase extends UseCase<Either, int> {
   @override

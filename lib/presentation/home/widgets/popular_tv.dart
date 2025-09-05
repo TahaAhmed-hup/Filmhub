@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/commen/bloc/generic_data_cubit.dart';
-import 'package:netflix/commen/bloc/generic_data_state.dart';
-import 'package:netflix/domain/tv/entities/tv.dart';
-import 'package:netflix/service_locator.dart';
 
+import '../../../commen/bloc/generic_data_cubit.dart';
+import '../../../commen/bloc/generic_data_state.dart';
 import '../../../commen/widgets/tv/tv_card.dart';
+import '../../../domain/tv/entities/tv.dart';
 import '../../../domain/tv/usecases/get_popular_tv.dart';
+import '../../../service_locator.dart';
 
 class PopularTv extends StatelessWidget {
   const PopularTv({super.key});

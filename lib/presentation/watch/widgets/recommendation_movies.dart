@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/commen/bloc/generic_data_cubit.dart';
-import 'package:netflix/commen/bloc/generic_data_state.dart';
-import 'package:netflix/domain/movie/entities/movie.dart';
-import 'package:netflix/service_locator.dart';
 
+import '../../../commen/bloc/generic_data_cubit.dart';
+import '../../../commen/bloc/generic_data_state.dart';
 import '../../../commen/widgets/movie/movie_card.dart';
+import '../../../domain/movie/entities/movie.dart';
 import '../../../domain/movie/usecases/get_recommendation_movies.dart';
+import '../../../service_locator.dart';
 
 class RecommendationMovies extends StatelessWidget {
   final int movieId;

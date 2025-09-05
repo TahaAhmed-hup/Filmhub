@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:netflix/core/entity/keyword.dart';
-import 'package:netflix/domain/tv/usecases/get_keywords.dart';
 
 import '../../../commen/bloc/generic_data_cubit.dart';
 import '../../../commen/bloc/generic_data_state.dart';
+import '../../../core/entity/keyword.dart';
+import '../../../domain/tv/usecases/get_keywords.dart';
 import '../../../service_locator.dart';
 
 class TVKeywords extends StatelessWidget {
