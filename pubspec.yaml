@@ -13,17 +13,17 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
-  flutter_bloc: ^8.1.1
-  reactive_button: ^0.0.9
-  dartz: ^0.10.1
-  dio: ^6.1.1
-  logger: ^1.1.0
-  get_it: ^7.2.0
-  shared_preferences: ^2.1.1
-  flutter_svg: ^2.0.7
-  fan_carousel_image_slider: ^1.0.0
-  youtube_player_flutter: ^9.0.0
-  shimmer: ^3.0.0
+  flutter_bloc:
+  reactive_button:
+  dartz:
+  dio:
+  logger:
+  get_it:
+  shared_preferences:
+  flutter_svg:
+  fan_carousel_image_slider:
+  youtube_player_flutter:
+  shimmer:
 
 dev_dependencies:
   flutter_test:

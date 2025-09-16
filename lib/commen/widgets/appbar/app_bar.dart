@@ -31,7 +31,8 @@ class BasicAppbar extends StatelessWidget implements PreferredSizeWidget {
       titleSpacing: 0,
       leadingWidth: leading != null ? 150 : null,
       actions: [action ?? Container()],
-      leading: leading ??
+      leading:
+          leading ??
           (hideBack
               ? null
               : IconButton(
